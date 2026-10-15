@@ -265,10 +265,10 @@
         sym_layer {
             display-name = "SYM";
             bindings = <
-&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4   &kp NUMBER_5        &kp N6            &kp NUMBER_7       &kp NUMBER_8          &kp NUMBER_9           &kp NUMBER_0  &kp MINUS
-&trans     &kp GRAVE     &none         &kp BACKSLASH  &kp LESS_THAN  &kp GREATER_THAN    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &trans
-&trans     &trans        &trans        &trans         &trans         &trans              &kp PLUS          &kp MINUS          &kp UNDER             &kp EQUAL              &trans        &trans
-                                       &trans         &trans         &trans              &trans            &trans             &trans
+&kp GRAVE  &kp EXCL   &kp AT         &kp HASH  &kp DOLLAR     &kp PERCENT         &kp CARET         &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
+&trans     &kp TILDE  &kp BACKSLASH  &kp PIPE  &kp LESS_THAN  &kp GREATER_THAN    &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp UNDER     &kp EQUAL             &trans                 &trans
+&trans     &trans     &trans         &trans    &trans         &trans              &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS     &kp PLUS              &trans                 &trans
+                                     &trans    &trans         &trans              &trans            &trans             &trans
             >;
         };
 
